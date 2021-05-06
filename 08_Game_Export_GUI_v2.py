@@ -475,7 +475,7 @@ class GameStats:
         self.dismiss_btn.grid(row=0, column=0, pady=10)
 
         self.export_btn = Button(self.export_dismiss_frame, text="Export",
-                                  width=10, bg="#660000", fg="white",
+                                  width=10, bg="#003366", fg="white",
                                   font="arial 15 bold",
                                   command=partial(self.close_stats, partner))
         self.export_btn.grid(row=0, column=1, pady=10)
